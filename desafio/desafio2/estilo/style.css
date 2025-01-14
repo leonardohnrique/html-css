@@ -19,19 +19,21 @@ html, body {
     height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
+    min-width: 405px;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    min-width: 405px;
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: 6em;
 }
 
 header > p {
@@ -100,4 +102,5 @@ footer {
     text-align: center;
     color: white;
     padding: 5px;
+    min-width: 400px;
 }
