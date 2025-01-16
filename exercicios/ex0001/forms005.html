@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            padding: 10px;
+        }
+
+        fieldset {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="isxm">
+                <label for="isxm">Masculino</label>
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="isxf">
+                <label for="isxf">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Preferidos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbask" id="iesbask"> <label for="iesbask">Basket</label> <br>
+            <input type="checkbox" name="esvolei" id="iesvolei"> <label for="iesvolei">Vôlei</label> <br>
+            <input type="checkbox" name="estenis" id="iestenis"> <label for="iestenis">Tênis</label> <br>
+            <input type="checkbox" name="esqueimada" id="iesqueimada"> <label for="iesqueimada">Queimada</label> <br>
+        </fieldset> <br>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
